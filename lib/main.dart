@@ -5,7 +5,7 @@ import 'package:start_stop_restart/page/home_page.dart';
 import 'package:start_stop_restart/widget/range_wave_length.dart';
 import 'package:start_stop_restart/monitoring.dart';
 
-void main() {
+Future main() async {
   Get.put(RangeWaveLengthController());
   Get.put(CountControllerWithReactive());
   Get.find<RangeWaveLengthController>().rwls.assignAll([]);
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'WR연습',
       theme: ThemeData(
         // This is the theme of your application.
         //

@@ -102,30 +102,5 @@ void serialPort() {
     double dpcr = double.parse(
         _Dpcr_int_first + _Dpcr_int_second + '.' + _Dpcr_float_first);
     print('stx: $stx $id $vpp $dpcr $etx');
-    //print('dpcr $dpcr');
-    // print('id: $id');
-    // print('dpcr: $dpcr');
-    // print('etx: $etx');
-
-    // int Vpp_int = 10 * data[2] + data[3];
-    // int frist_Comma = data[4];
-    // double Vpp_float =
-    //     data[5] * 0.1 + data[6] * 0.01 + data[7] * 0.001;
-    // int Dpcr_int = 10 * data[8] + data[9];
-    // int second_Comma = data[10];
-    // double Dpcr_float = data[11] * 0.1;
-    // int etx = data[12];
-
-    // //String stx = String.fromCharCodes(data);
-    // print('stx: $stx');
-    // print('id: $id');
-    // print('Vpp_int: $Vpp_int');
-    // print('frist_Comma: $frist_Comma');
-    // print('Vpp_float: $Vpp_float');
-    // print('Dpcr_int: $Dpcr_int');
-    // print('second_Comma: $second_Comma');
-    // print('Dpcr_float: $Dpcr_float');
-    // print('Dpcr_float: $etx');
-    //print('received: $f');
   });
 }
